@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Test file
+=======
+Hello test
+>>>>>>> ab0791a2c6ef4c9373bcd9228715cc88f58f208c
