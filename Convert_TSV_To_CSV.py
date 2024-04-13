@@ -17,8 +17,13 @@ def convert_tsv_to_csv_in_directory(root_directory):
                 output_file = os.path.join(foldername, filename.replace('.tsv', '.csv'))
                 tsv_to_csv(input_file, output_file)
 
+<<<<<<< HEAD
 def branch_function1():
     print("Branch function1")
+=======
+def master_function1():
+    print("master_function1")
+>>>>>>> master
     
 if __name__ == "__main__":
     root_directory = "C:\\Users\\vaija\\Downloads"  # Replace this with the root directory containing subdirectories and .tsv files
