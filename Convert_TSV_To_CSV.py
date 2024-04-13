@@ -17,6 +17,9 @@ def convert_tsv_to_csv_in_directory(root_directory):
                 output_file = os.path.join(foldername, filename.replace('.tsv', '.csv'))
                 tsv_to_csv(input_file, output_file)
 
+def master_function1():
+    print("master_function1")
+    
 if __name__ == "__main__":
     root_directory = "C:\\Users\\vaija\\Downloads"  # Replace this with the root directory containing subdirectories and .tsv files
     convert_tsv_to_csv_in_directory(root_directory)
